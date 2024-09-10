@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family:"Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+    max-width: 1440px;
+    margin : 0 auto 0 auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+#title {
+    font-size: 34px;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 20px;
+    
+}
+
+.index-h2 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#nav-pc {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+#nav-pc ul {
+    display: flex;
+    padding-left: 0;
+}
+
+#nav-pc li {
+    list-style: none;
+}
+
+#nav-pc a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #0d0d0d;
+}
+
+#nav-pc a:hover {
+    text-decoration: underline;
+}
+
+#main-photo {
+    width: 1440px;
+    height: 587px;
+}
+
+#about {
+    width: 820px;
+    height: 420px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about div {
+    display: flex;
+    justify-content: center;
+}
+
+#face {
+    border-radius: 45 45 45 45;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+}
+
+#works {
+    margin-bottom: 50px;
+}
+
+#works-inner {
+    width: 752px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#works-inner {
+    width: 240px;
+    height: 215px;
+}
+
+#copy {
+    text-align: center;
+    margin-top: 20px;
+}
